@@ -1,0 +1,122 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<section class='p-4'>
+    <div class="d-grid gap-2 col-3 mx-auto p-1">
+        <button class="btn btn-outline-dark btn-lg">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+          </svg>
+        <span class="b-txt"></span> 1 Bishan Medical Centre</button>
+        
+        </div>
+    
+</section>
+
+<p>
+
+</p>
+  <section class="p-2">
+    <div class="container">
+      <div class="row text-center g-4">
+        <div class="col-md">
+          <div class="card bg-primary text-light">
+            <img
+            src="https://mdbootstrap.com/img/new/slides/017.webp"
+            class="card-img"
+            alt="..."
+          />
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-laptop"></i>
+              </div>
+              <h3 class="card-title mb-3">Book An Appointment</h3>
+              <p class="card-text">
+                
+              </p>
+              <a href="http://127.0.0.1:8000/bookappointment" class="btn btn-dark">Book An Appointment</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card bg-primary text-light">
+            <img
+            src="https://mdbootstrap.com/img/new/slides/017.webp"
+            class="card-img"
+            alt="..."
+          />
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-person-square"></i>
+              </div>
+              <h3 class="card-title mb-3">Video Call a Doctor</h3>
+              <p class="card-text">
+                
+              </p>
+              <a href="http://127.0.0.1:8000/videocall" class="btn btn-dark">Call</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card bg-primary text-light">
+            <img
+            src="https://mdbootstrap.com/img/new/slides/017.webp"
+            class="card-img"
+            alt="..."
+          />
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-people"></i>
+              </div>
+              <h3 class="card-title mb-3">Self-Symptom Checker</h3>
+              <p class="card-text">
+                Scan your physical symptoms for quick and convenient diagnosis without have to leave your room!
+              </p>
+              <a href="http://127.0.0.1:8000/scan" class="btn btn-dark">Scan Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="card bg-dark text-white">
+    <img
+      src="https://mdbootstrap.com/img/new/slides/017.webp"
+      class="card-img"
+      alt="..."
+    />
+    <div class="card-img-overlay">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">
+        This is a wider card with supporting text below as a natural lead-in to additional
+        content. This content is a little bit longer.
+      </p>
+      <p class="card-text">Last updated 3 mins ago</p>
+    </div>
+  </div>
+
+  <section class="p-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md">
+          <h2 class="text-center mb-4">Doctor's Deets</h2>
+          <ul class="list-group list-group-flush lead">
+            <li class="list-group-item">
+              <span class="fw-bold">Kylie Tan Jia Yun : </span> kylie.tan.2020@scis.smu.edu.sg
+            </li>
+            <li class="list-group-item">
+              <span class="fw-bold">Ang Heng Di : </span> hengdi.ang.2020@scis.smu.edu.sg
+            </li>
+          </ul>
+        </div>
+        <!-- <div class="col-md">
+          <div id="map"></div> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+{% endblock %}
