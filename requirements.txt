@@ -36,8 +36,6 @@ simplejson==3.17.0
 six==1.16.0
 smart-open==5.2.1
 sqlclient==21.4.24
-tensorflow==2.3.0
-tensorflow-estimator==2.3.0
 toml==0.10.1
 tqdm==4.62.3
 urllib3==1.26.8
